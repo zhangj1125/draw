@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2022-02-06T08:30:24.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="sr6df2VdGK96ANIjJel9" version="16.5.3" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1038" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="GrZb4gvo8PiQvZOxw_Kl-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GrZb4gvo8PiQvZOxw_Kl-2" target="GrZb4gvo8PiQvZOxw_Kl-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZb4gvo8PiQvZOxw_Kl-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GrZb4gvo8PiQvZOxw_Kl-2" target="GrZb4gvo8PiQvZOxw_Kl-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZb4gvo8PiQvZOxw_Kl-2" value="DispatcherHandler" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="294" y="140" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZb4gvo8PiQvZOxw_Kl-3" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;initStrategies&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="490" y="140" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZb4gvo8PiQvZOxw_Kl-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GrZb4gvo8PiQvZOxw_Kl-5" target="GrZb4gvo8PiQvZOxw_Kl-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZb4gvo8PiQvZOxw_Kl-5" value="HttpWebHandlerAdapter" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="264" y="30" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZb4gvo8PiQvZOxw_Kl-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GrZb4gvo8PiQvZOxw_Kl-7" target="GrZb4gvo8PiQvZOxw_Kl-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZb4gvo8PiQvZOxw_Kl-7" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;AbstractHandlerMapping&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="265" y="240" width="174" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZb4gvo8PiQvZOxw_Kl-8" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;RouterFunctionMapping&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="265" y="350" width="174" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
