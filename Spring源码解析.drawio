@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T09:15:49.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="Wk5MdjiLVXNp386k313F" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-28T02:09:21.210Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="ci40muK6EuZDwnZNJFBD" version="17.2.4" type="github">
   <diagram id="Km3hOTP_TFFmn3upVToj" name="Page-1">
     <mxGraphModel dx="2692" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
         <mxCell id="On-2ADN7kd9dpEOP8VJU-11" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;prepareBeanFactory()&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-521" y="680" width="131" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zLjrZ5fAoaI-PD5PPh4M-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="On-2ADN7kd9dpEOP8VJU-12" target="zLjrZ5fAoaI-PD5PPh4M-11">
+        <mxCell id="zLjrZ5fAoaI-PD5PPh4M-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="On-2ADN7kd9dpEOP8VJU-12" target="zLjrZ5fAoaI-PD5PPh4M-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="On-2ADN7kd9dpEOP8VJU-12" value="进一步完善 BeanFactory，为它的各项成员变量赋值" style="rounded=0;whiteSpace=wrap;html=1;labelBorderColor=none;" parent="1" vertex="1">
@@ -146,8 +146,11 @@
         <mxCell id="On-2ADN7kd9dpEOP8VJU-49" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;finishBeanFactoryInitialization&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-564.25" y="1910" width="216.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="On-2ADN7kd9dpEOP8VJU-51" value="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-size: 12px ; letter-spacing: 0.544px ; text-align: justify ; background-color: rgb(255 , 255 , 255)&quot;&gt;这一步会将 beanFactory 的成员补充完毕，并初始化所有非延迟单例 bean&lt;br&gt;&lt;/span&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;preInstantiateSingletons&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="-219.5" y="1910" width="229.5" height="80" as="geometry" />
+        <mxCell id="YV_hM9fHcB-Gt_fJDpqy-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-2ADN7kd9dpEOP8VJU-51" target="YV_hM9fHcB-Gt_fJDpqy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-2ADN7kd9dpEOP8VJU-51" value="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-size: 12px ; letter-spacing: 0.544px ; text-align: justify ; background-color: rgb(255 , 255 , 255)&quot;&gt;这一步会将 beanFactory 的成员补充完毕，并初始化所有非延迟单例 bean&lt;br&gt;&lt;/span&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;DefaultListableBeanFactory#preInstantiateSingletons&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-219.5" y="1910" width="359.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="On-2ADN7kd9dpEOP8VJU-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;" parent="1" source="On-2ADN7kd9dpEOP8VJU-53" target="On-2ADN7kd9dpEOP8VJU-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -170,7 +173,7 @@
         <mxCell id="On-2ADN7kd9dpEOP8VJU-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;fontColor=#CC0000;" parent="1" source="On-2ADN7kd9dpEOP8VJU-60" target="On-2ADN7kd9dpEOP8VJU-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zLjrZ5fAoaI-PD5PPh4M-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="On-2ADN7kd9dpEOP8VJU-60" target="zLjrZ5fAoaI-PD5PPh4M-3">
+        <mxCell id="zLjrZ5fAoaI-PD5PPh4M-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="On-2ADN7kd9dpEOP8VJU-60" target="zLjrZ5fAoaI-PD5PPh4M-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="239.875" y="1290" as="targetPoint" />
           </mxGeometry>
@@ -184,17 +187,32 @@
         <mxCell id="On-2ADN7kd9dpEOP8VJU-64" value="&lt;p style=&quot;margin: 0px auto; padding: 0px; outline: 0px; max-width: 100%; box-sizing: border-box; clear: both; min-height: 1em; color: rgb(34, 34, 34); letter-spacing: 0.544px; text-align: justify; background-color: rgb(255, 255, 255); vertical-align: inherit; width: 649.912px; font-size: 12px; overflow-wrap: break-word;&quot;&gt;* AutowiredAnnotationBeanPostProcessor 功能有：解析 @Autowired，@Value 注解&lt;/p&gt;&lt;p style=&quot;margin: 0px; padding: 0px; outline: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(34, 34, 34); font-size: 12px; letter-spacing: 0.544px; text-align: justify; background-color: rgb(255, 255, 255); vertical-align: inherit; box-sizing: border-box; overflow-wrap: break-word;&quot;&gt;&lt;br style=&quot;margin: 0px; padding: 0px; outline: 0px; max-width: 100%; box-sizing: border-box; overflow-wrap: break-word; font-size: 12px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px auto; padding: 0px; outline: 0px; max-width: 100%; box-sizing: border-box; clear: both; min-height: 1em; color: rgb(34, 34, 34); letter-spacing: 0.544px; text-align: justify; background-color: rgb(255, 255, 255); vertical-align: inherit; width: 649.912px; font-size: 12px; overflow-wrap: break-word;&quot;&gt;* CommonAnnotationBeanPostProcessor 功能有：解析 @Resource，@PostConstruct，@PreDestroy&lt;/p&gt;&lt;p style=&quot;margin: 0px; padding: 0px; outline: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(34, 34, 34); font-size: 12px; letter-spacing: 0.544px; text-align: justify; background-color: rgb(255, 255, 255); vertical-align: inherit; box-sizing: border-box; overflow-wrap: break-word;&quot;&gt;&lt;br style=&quot;margin: 0px; padding: 0px; outline: 0px; max-width: 100%; box-sizing: border-box; overflow-wrap: break-word; font-size: 12px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px auto; padding: 0px; outline: 0px; max-width: 100%; box-sizing: border-box; clear: both; min-height: 1em; color: rgb(34, 34, 34); letter-spacing: 0.544px; text-align: justify; background-color: rgb(255, 255, 255); vertical-align: inherit; width: 649.912px; font-size: 12px; overflow-wrap: break-word;&quot;&gt;* AnnotationAwareAspectJAutoProxyCreator 功能有：为符合切点的目标 bean 自动创建代理&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="571" y="1200" width="679" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="zLjrZ5fAoaI-PD5PPh4M-3" value="BeanPostProcessor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="zLjrZ5fAoaI-PD5PPh4M-3" value="BeanPostProcessor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="14.879999999999999" y="1300" width="450" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="zLjrZ5fAoaI-PD5PPh4M-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=12;" vertex="1" parent="zLjrZ5fAoaI-PD5PPh4M-3">
+        <mxCell id="zLjrZ5fAoaI-PD5PPh4M-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=12;" parent="zLjrZ5fAoaI-PD5PPh4M-3" vertex="1">
           <mxGeometry y="26" width="450" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="zLjrZ5fAoaI-PD5PPh4M-6" value="+ postProcessBeforeInitialization(Object bean, String beanName): Object&#xa;+ postProcessAfterInitialization(Object bean, String beanName): Object&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="zLjrZ5fAoaI-PD5PPh4M-3">
+        <mxCell id="zLjrZ5fAoaI-PD5PPh4M-6" value="+ postProcessBeforeInitialization(Object bean, String beanName): Object&#xa;+ postProcessAfterInitialization(Object bean, String beanName): Object&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="zLjrZ5fAoaI-PD5PPh4M-3" vertex="1">
           <mxGeometry y="34" width="450" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="zLjrZ5fAoaI-PD5PPh4M-11" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;new ApplicationContextAwareProcessor()&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;实现了BeanPostProcessor&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;consolas&quot;&gt;&lt;span style=&quot;font-size: 11.2px&quot;&gt;通过 ApplicationContextAwareProcessor#postProcessBeforeInitialization&lt;/span&gt;&lt;span style=&quot;font-size: 8.4pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;consolas&quot;&gt;&lt;span style=&quot;font-size: 11.2px&quot;&gt;实现&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBorderColor=none;" vertex="1" parent="1">
+        <mxCell id="zLjrZ5fAoaI-PD5PPh4M-11" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;new ApplicationContextAwareProcessor()&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.4pt&quot;&gt;实现了BeanPostProcessor&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;consolas&quot;&gt;&lt;span style=&quot;font-size: 11.2px&quot;&gt;通过 ApplicationContextAwareProcessor#postProcessBeforeInitialization&lt;/span&gt;&lt;span style=&quot;font-size: 8.4pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;consolas&quot;&gt;&lt;span style=&quot;font-size: 11.2px&quot;&gt;实现&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="-30" y="665" width="470" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YV_hM9fHcB-Gt_fJDpqy-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YV_hM9fHcB-Gt_fJDpqy-1" target="YV_hM9fHcB-Gt_fJDpqy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YV_hM9fHcB-Gt_fJDpqy-1" value="循环调用getBean(beanName)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YV_hM9fHcB-Gt_fJDpqy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YV_hM9fHcB-Gt_fJDpqy-3" target="YV_hM9fHcB-Gt_fJDpqy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YV_hM9fHcB-Gt_fJDpqy-3" value="AbstractBeanFactory#doGetBean" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1920" width="220.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YV_hM9fHcB-Gt_fJDpqy-5" value="&lt;font style=&quot;font-size: 12px&quot;&gt;AbstractAutowireCapableBeanFactory#createBean&lt;br&gt;AbstractAutowireCapableBeanFactory#doCreateBean&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750.38" y="1920" width="319.62" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
